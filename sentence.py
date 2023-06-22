@@ -1,6 +1,6 @@
 
 import sentencepiece as spm
-spm.SentencePieceTrainer.Train('--input=Hiroshima_Peace_Park_Wikipedia.txt --model_prefix=sentencepiece --vocab_size=384 --character_coverage=0.9995')
+spm.SentencePieceTrainer.Train('--input=bochan.txt --model_prefix=sentencepiece --vocab_size=2000 --character_coverage=0.9995')
 sp=spm.SentencePieceProcessor()
 sp.Load("sentencepiece.model")
 
@@ -8,7 +8,8 @@ sp.Load("sentencepiece.model")
 with open('Hiroshima_Peace_Park_Wikipedia.txt') as f:
     text = f.read()
     a = len(text)
-    test = ["_", "家", "広島", "広島市", "原爆", "原爆ドーム", "原爆爆弾", "平和", "公園", "広島市中央公園", "世界", "設計", "爆心地", "資料館", "構想", "バラック", "区域", "繁華街", "地区", "特に",
+    test = ["_", "家", "広島", "広島市", "原爆", "原爆ドーム", "原爆爆弾", "平和", "公園",
+        "広島市中央公園", "世界", "設計", "爆心地", "資料館", "構想", "バラック", "区域", "繁華街", "地区", "特に",
         "もう", "しかし", "また", 
         "そして", "この", 
         "その", "あの", "私", 
@@ -29,7 +30,8 @@ with open('Hiroshima_Peace_Park_Wikipedia.txt') as f:
     for i in b:
         if i not in test:
             c += 1
-    print(str(c/a) + "%")
+    print(str(c/a *100) + "%")
+    print(b)
     f.close()
 #text = '親'
 
