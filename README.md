@@ -5,3 +5,5 @@ For sentence.py, I simply tried word segmentation aspect and used Hiroshima file
 
 For speed comparison, I used bochan.txt, which is fairly large japanese corpus. I got initinal speed with only one japanese word. 
 
+Below is screenshot of sentencepiece word segmentation
+recent:///709100805fb41efa56a713ae64940078
