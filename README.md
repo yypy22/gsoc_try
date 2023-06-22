@@ -3,6 +3,7 @@ It got 42.22% with Hiroshima file. On tests file, python3 modCov.py ~/Desktop/gs
 
 For sentence.py, I simply tried word segmentation aspect and used Hiroshima file as an input. It produces model and vocaburary. With the model, i tokenized Hiroshima file and i got 62.11% with some words from lexc file in apertium-jpn.
 word segmentation doc in python https://pypi.org/project/sentencepiece/
+I got 85.24% with bochan.txt input. Larger corpus input will make accuracy better.
 
 Brief summary of Sentencepiece:'SentencePiece' solves problem by using 'subwords'. First, the text is split into words and the frequency of each word is determined. High frequency words are then treated as a single vocabulary, while low frequency words are split into shorter vocabulary words. The splitting is then repeated until the vocabulary number reaches a pre-specified number. This makes it possible to eliminate unknown words while keeping the vocabulary size small.
 
