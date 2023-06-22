@@ -10,6 +10,9 @@ Brief summary of Sentencepiece:'SentencePiece' solves problem by using 'subwords
 
 For speed comparison, I used bochan.txt, which is fairly large japanese corpus. I got initinal speed with only one japanese word. 
 
-Below is screenshot of sentencepiece word segmentation
+Below is screenshot of sentencepiece word segmentation(62%)
 
 ![Screenshot from 2023-06-22 09-03-49](https://github.com/yypy22/gsoc_try/assets/99264752/e9615d7a-4eac-4845-abaf-d12327a9a828)
+
+Below is with 85% one
+![Screenshot from 2023-06-23 00-44-55](https://github.com/yypy22/gsoc_try/assets/99264752/d5f456b4-c0f7-4001-aca7-6a3d8464b37a)
