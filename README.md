@@ -1,3 +1,11 @@
+Precision: 0.8518099547511312
+Recall: 0.6657824933687002
+F-score: 0.747394540942928
+with sentencepiece.
+test data is from https://github.com/neubig/kytea/blob/master/tools/kytea-active/data/wiki-sample.word
+
+
+
 For apertium-jpn, there is a python file called modCov.py. It tokenize text file with tokeniser.py and evaluation is calculated with untokenized/total. 
 It got 42.22% with Hiroshima file. On tests file, python3 modCov.py ~/Desktop/gsoc/apertium-jpn/jpn.automorf.bin ~/Desktop/gsoc/jpn-corpus/Hiroshima_Peace_Park_Wikipedia.txt output the accuracy.
 
