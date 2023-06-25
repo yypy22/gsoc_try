@@ -1,8 +1,6 @@
-Precision: 0.8518099547511312
-Recall: 0.6657824933687002
-F-score: 0.747394540942928
-with sentencepiece.
+Precision: 0.8518099547511312 Recall: 0.6657824933687002 F-score: 0.747394540942928 with sentencepiece.
 test data is from https://github.com/neubig/kytea/blob/master/tools/kytea-active/data/wiki-sample.word
+I used the first 100 lines for testing.
 
 
 
