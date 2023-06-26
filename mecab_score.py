@@ -16,7 +16,7 @@ def calculate_f_score(corpus, output_text):
 
 with open('non_notation.txt') as f, open('full_annotation.txt') as f1:
     text = f.read()
-    text1 = f1.read()
+    text1 = f1.read().split()   # split on spaces!
     a = len(text)
     wakati = MeCab.Tagger("-Owakati")
     b = wakati.parse(text).split()  
