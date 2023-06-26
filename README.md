@@ -12,6 +12,10 @@ Recall: 0.759493670886076
 F-score: 0.8163265306122448
 not bad.
 
+Vocab size would be significant factor.
+
+
+
 For apertium-jpn, there is a python file called modCov.py. It tokenize text file with tokeniser.py and evaluation is calculated with untokenized/total. 
 It got 42.22% with Hiroshima file. On tests file, python3 modCov.py ~/Desktop/gsoc/apertium-jpn/jpn.automorf.bin ~/Desktop/gsoc/jpn-corpus/Hiroshima_Peace_Park_Wikipedia.txt output the accuracy.
 
