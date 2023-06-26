@@ -2,7 +2,10 @@ Precision: 0.8518099547511312 Recall: 0.6657824933687002 F-score: 0.747394540942
 test data is from https://github.com/neubig/kytea/blob/master/tools/kytea-active/data/wiki-sample.word
 I used the first 100 lines for testing.
 
-
+I used smaller_large_corpus.txt to train and used vocab size 2000. i got Precision: 0.8947963800904978
+Recall: 0.8505376344086022
+F-score: 0.8721058434399118
+quite nice score tbh.
 
 For apertium-jpn, there is a python file called modCov.py. It tokenize text file with tokeniser.py and evaluation is calculated with untokenized/total. 
 It got 42.22% with Hiroshima file. On tests file, python3 modCov.py ~/Desktop/gsoc/apertium-jpn/jpn.automorf.bin ~/Desktop/gsoc/jpn-corpus/Hiroshima_Peace_Park_Wikipedia.txt output the accuracy.
