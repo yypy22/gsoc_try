@@ -1,3 +1,7 @@
+sentencepiece with about 13M text file -> Precision: 0.26522593320235754 Recall: 0.2383053839364519 F-score: 0.2510460251046025
+
+
+
 I did mecab word segmentation with bochan.txt and used it to train sentencepiece. I got Precision: 0.24645030425963488 Recall: 0.2144748455428067 F-score: 0.2293534686172723
 With plain bochan.txt, I got Precision: 0.25074925074925075 Recall: 0.22153574580759047 F-score: 0.23523898781630742
 No big difference. 
