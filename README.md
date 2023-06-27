@@ -1,3 +1,10 @@
+I did mecab word segmentation with bochan.txt and used it to train sentencepiece. I got Precision: 0.24645030425963488 Recall: 0.2144748455428067 F-score: 0.2293534686172723
+With plain bochan.txt, I got Precision: 0.25074925074925075 Recall: 0.22153574580759047 F-score: 0.23523898781630742
+No big difference. 
+
+
+
+
 Precision: 0.8518099547511312 Recall: 0.6657824933687002 F-score: 0.747394540942928 with sentencepiece.
 test data is from https://github.com/neubig/kytea/blob/master/tools/kytea-active/data/wiki-sample.word
 I used the first 100 lines for testing.
