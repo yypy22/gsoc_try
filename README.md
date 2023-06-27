@@ -3,7 +3,7 @@ With plain bochan.txt, I got Precision: 0.25074925074925075 Recall: 0.2215357458
 No big difference. 
 
 
-large japanese corpus is from livedoor news.
+large japanese corpus is from livedoor news https://www.rondhuit.com/download.html#ldcc
 
 
 
