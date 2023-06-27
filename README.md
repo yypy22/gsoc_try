@@ -3,23 +3,7 @@ With plain bochan.txt, I got Precision: 0.25074925074925075 Recall: 0.2215357458
 No big difference. 
 
 
-
-
-Precision: 0.8518099547511312 Recall: 0.6657824933687002 F-score: 0.747394540942928 with sentencepiece.
-test data is from https://github.com/neubig/kytea/blob/master/tools/kytea-active/data/wiki-sample.word
-I used the first 100 lines for testing.
-
-I used smaller_large_corpus.txt(download from https://www.rondhuit.com/download.html#ldcc) to train and used vocab size 2000. I got Precision: 0.8947963800904978
-Recall: 0.8505376344086022
-F-score: 0.8721058434399118
-quite nice score tbh.
-
-with top.txt and 3000 vocab size, I got Precision: 0.8823529411764706
-Recall: 0.759493670886076
-F-score: 0.8163265306122448
-not bad.
-
-Vocab size would be a significant factor.
+large japanese corpus is from livedoor news.
 
 
 
