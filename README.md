@@ -1,3 +1,5 @@
+sentencepiece with text file > Precision: 0.2625968992248062 Recall: 0.23918799646954986 F-score: 0.25034642032332566
+
 sentencepiece with about 13M text file -> Precision: 0.26522593320235754 Recall: 0.2383053839364519 F-score: 0.2510460251046025
 
 
