@@ -1,5 +1,8 @@
 sentencepiece with 251MB text file from wikipedia japanese data > Precision: 0.357958872810358 Recall: 0.4148278905560459 F-score: 0.384300899427637
 probably not best choice for apertium.
+It exceeds 100MB and i cannot upload it here. The text look like this
+![Screenshot from 2023-07-01 05-56-32](https://github.com/yypy22/gsoc_try/assets/99264752/34032204-a5e4-43d7-ac13-39964f37bdc0)
+
 
 sentencepiece with 22MB text file > Precision: 0.2625968992248062 Recall: 0.23918799646954986 F-score: 0.25034642032332566 (with 8000 vocab > Precision: 0.357958872810358 Recall: 0.4148278905560459 F-score: 0.384300899427637)
 
