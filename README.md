@@ -1,9 +1,9 @@
-sentencepiece with 251M > Precision: 0.357958872810358 Recall: 0.4148278905560459 F-score: 0.384300899427637
+sentencepiece with 251MB text file from wikipedia japanese data > Precision: 0.357958872810358 Recall: 0.4148278905560459 F-score: 0.384300899427637
 probably not best choice for apertium.
 
-sentencepiece with 22M text file > Precision: 0.2625968992248062 Recall: 0.23918799646954986 F-score: 0.25034642032332566 (with 8000 vocab > Precision: 0.357958872810358 Recall: 0.4148278905560459 F-score: 0.384300899427637)
+sentencepiece with 22MB text file > Precision: 0.2625968992248062 Recall: 0.23918799646954986 F-score: 0.25034642032332566 (with 8000 vocab > Precision: 0.357958872810358 Recall: 0.4148278905560459 F-score: 0.384300899427637)
 
-sentencepiece with about 13M text file -> Precision: 0.26522593320235754 Recall: 0.2383053839364519 F-score: 0.2510460251046025
+sentencepiece with about 13MB text file -> Precision: 0.26522593320235754 Recall: 0.2383053839364519 F-score: 0.2510460251046025
 
 
 
