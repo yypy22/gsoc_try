@@ -1,3 +1,6 @@
+From https://qiita.com/taku910/items/fbaeab4684665952d5a9 
+I tried the output file with mecab format and i got Precision: 0.25633528265107214 Recall: 0.2321270962047661 F-score: 0.24363131079203335 with bochan.txt. The command I used was: mecab -F"%M||||" -E"\n" -b 100000 < bochan.txt  > bochan.txt.tok
+
 sentencepiece with 251MB text file from wikipedia japanese data > Precision: 0.357958872810358 Recall: 0.4148278905560459 F-score: 0.384300899427637
 probably not best choice for apertium.
 It exceeds 100MB and i cannot upload it here. The text look like this
