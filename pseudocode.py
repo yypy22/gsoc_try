@@ -5,6 +5,7 @@
 Import mecab and hfst
 
 ##mecab tagger for word segmentation##
+##option Owakatti is used##
 mecab_tokenizer = mecab.Tagger("-Owakatti")
 
 
