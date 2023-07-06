@@ -1,6 +1,7 @@
-This Python file use MeCab for tokenisation and hfst for fst. 
+#This Python file use MeCab for tokenisation and hfst for fst. 
+#mecab-python3 is needed with ipa dictionary. More info on pypl
 
-##import##
+##import library##
 Import mecab and hfst
 
 ##mecab tagger for word segmentation##
