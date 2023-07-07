@@ -1,3 +1,9 @@
+current tokenize_mecab.py for testing.
+probably something still going wrong 
+![Screenshot from 2023-07-07 12-23-44](https://github.com/yypy22/gsoc_try/assets/99264752/12e02cba-b68a-4e31-aa56-ec7a609ecf80)
+
+
+
 From https://qiita.com/taku910/items/fbaeab4684665952d5a9 
 I tried the output file with mecab format and i got Precision: 0.25633528265107214 Recall: 0.2321270962047661 F-score: 0.24363131079203335 with bochan.txt. The command I used was: mecab -F"%M||||" -E"\n" -b 100000 < bochan.txt  > bochan.txt.tok
 
