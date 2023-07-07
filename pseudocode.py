@@ -11,12 +11,12 @@ mecab_tokenizer = mecab.Tagger("-Owakatti")
 
 ##tokenizer##
 def tokenise(sys.in)
-output = mecab_tokeniser(sys.in)
+output = mecab_tokeniser(sys.in).split()
 return output
 
 ##analyser##
 def analyzer(sys.in, analyser)
-output = mecab_tokeniser(sys.stdin)
+output = mecab_tokeniser(sys.stdin).split()
 analyze with tokenized characters(output)
 return alalysis
 
