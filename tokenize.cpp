@@ -2,8 +2,6 @@
 #include <string>
 #include <vector>
 #include <mecab.h>
-//chatGPT convert python file to C++
-//after several error fixes, it seems working!!!:)
 
 void go_to_tokenize(std::istream& sin, std::ostream& sout) {
     std::string input;
@@ -34,7 +32,7 @@ void go_to_tokenize(std::istream& sin, std::ostream& sout) {
     for (const std::string& token : excluded) {
         size_t pos = input.find(token);
         while (pos != std::string::npos) {
-            input.replace(pos, token.length(), " ^ " + std::to_string(placeholder) + " ^ ");
+            input.replace(pos, token.length(), "^" + std::to_string(placeholder) + "^");
             pos = input.find(token, pos + 1);
         }
         ++placeholder;
@@ -47,7 +45,7 @@ void go_to_tokenize(std::istream& sin, std::ostream& sout) {
     placeholder = 0;
 
     for (const std::string& excluded_token : excluded) {
-        std::string replaceStr = " ^ " + std::to_string(placeholder) + " ^ ";
+        std::string replaceStr = "^ " + std::to_string(placeholder) + " ^";
         size_t pos = 0;
         while ((pos = tokenized.find(replaceStr, pos)) != std::string::npos) {
             tokenized.replace(pos, replaceStr.length(), excluded_token);
