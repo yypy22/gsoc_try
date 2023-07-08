@@ -1,11 +1,17 @@
 #include <iostream>
 #include <mecab.h>
+#include <string>
 
-int main(int argc, char **argv) {
-
-    char input[1024] = "ただ、冒頭のリンク先の問題では通りましたが、";
+int main() {
+    //simple tokenization with user input
+    std::string input;
+    
     MeCab::Tagger *tagger = MeCab::createTagger("-Owakati");
-    const char *result = tagger->parse(input);
+
+    std::cout << "Enter your input: ";
+    std::getline(std::cin, input);
+
+    const char *result = tagger->parse(input.c_str());
     std::cout << result << std::endl;
 
     delete tagger;
