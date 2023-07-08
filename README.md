@@ -1,3 +1,6 @@
+Slight improve in tokenize.cpp
+![Screenshot from 2023-07-08 12-21-11](https://github.com/yypy22/gsoc_try/assets/99264752/9aede42c-1aa7-43eb-945c-f06cb9b8d583)
+
 tokenizer with mecab in C++
 ![Screenshot from 2023-07-08 10-16-09](https://github.com/yypy22/gsoc_try/assets/99264752/0e5e1fd0-8f73-4d28-8a28-88480a3afc0a)
 a few mistakes seen but working main function well
