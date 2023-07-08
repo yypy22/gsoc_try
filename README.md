@@ -1,3 +1,8 @@
+tokenizer with mecab in C++
+![Screenshot from 2023-07-08 10-16-09](https://github.com/yypy22/gsoc_try/assets/99264752/0e5e1fd0-8f73-4d28-8a28-88480a3afc0a)
+a few mistakes seen but working main function well
+
+
 tokenizer with mecab and [] is not processed
 ![Screenshot from 2023-07-08 05-24-06](https://github.com/yypy22/gsoc_try/assets/99264752/91195902-b791-4680-8879-49e5e9258c5a)
 
