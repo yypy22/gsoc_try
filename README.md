@@ -1,4 +1,7 @@
-current tokenize_mecab.py for testing.
+tokenizer with mecab and [] is not processed
+![Screenshot from 2023-07-08 05-24-06](https://github.com/yypy22/gsoc_try/assets/99264752/91195902-b791-4680-8879-49e5e9258c5a)
+
+tokenize_mecab.py for testing.
 probably something still going wrong 
 ![Screenshot from 2023-07-07 12-23-44](https://github.com/yypy22/gsoc_try/assets/99264752/12e02cba-b68a-4e31-aa56-ec7a609ecf80)
 
