@@ -1,4 +1,4 @@
-Slight improve in tokenize.cpp
+Slight improvement in tokenize.cpp, other than the space in front of the first character
 ![Screenshot from 2023-07-08 12-21-11](https://github.com/yypy22/gsoc_try/assets/99264752/9aede42c-1aa7-43eb-945c-f06cb9b8d583)
 
 tokenizer with mecab in C++
