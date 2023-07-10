@@ -1,31 +1,25 @@
 import MeCab
 import sys
 
-def go_to_tokenize(sin, sout):
+def process_text(sin, sout):
     text = sin.read()
-    excluded = []
-    current = ""
-    in_blank = False
-    for i in text:
-        if i == "[":
-            current = ""
-            in_blank = True
-        elif i == "]":
-            current += i
-            in_blank = False
-            excluded.append(current)
-            current = ""
-        if in_blank:
-            current += i
-    ##Alternative would be change setting in mecab dictionary
-    ##like dont process []
-    for i in range(len(excluded)):
-        text = text.replace(excluded[i], "^"+str(i)+"^")
     mecab = MeCab.Tagger("-Owakati")
-    token = mecab.parse(text)
-    for i in range(len(excluded)):
-        token = token.replace("^"+" "+str(i)+" "+"^", excluded[i])
-    sout.write(token)
+    buffer = ""
+    tokenized = ""
+    in_blancket = False
+
+    for i in text:
+        buffer += i
+        if i == "[":
+            buffer = mecab.parse(buffer.strip()).rstrip()
+            tokenized += buffer
+            buffer = ""
+            in_blancket = True
+        elif in_blancket:
+            tokenized += i
+        elif i == "]":
+            in_blancket = False
+    sout.write(tokenized)
 
 if __name__ == '__main__':
-    go_to_tokenize(sys.stdin, sys.stdout)
+    process_text(sys.stdin, sys.stdout)
