@@ -1,3 +1,6 @@
+tokenizer with hfst command 
+![Screenshot from 2023-07-12 05-52-36](https://github.com/yypy22/gsoc_try/assets/99264752/77667f6b-8504-4640-be5b-854fda4bc039)
+
 Slight improvement in tokenize.cpp
 ![Screenshot from 2023-07-08 12-21-11](https://github.com/yypy22/gsoc_try/assets/99264752/9aede42c-1aa7-43eb-945c-f06cb9b8d583)
 
