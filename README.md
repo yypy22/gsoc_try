@@ -1,3 +1,6 @@
+C++ file with hfst command 
+![Screenshot from 2023-07-12 05-59-04](https://github.com/yypy22/gsoc_try/assets/99264752/487ac8ea-ce7b-46e7-9edf-f48a126b5edd)
+
 tokenizer with hfst command 
 ![Screenshot from 2023-07-12 05-52-36](https://github.com/yypy22/gsoc_try/assets/99264752/77667f6b-8504-4640-be5b-854fda4bc039)
 
