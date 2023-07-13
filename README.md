@@ -1,4 +1,4 @@
-real_tokenizer.cpp and tokenize.py are moved into apertium-jpn
+real_tokenizer.cpp and mecab_tokenizer.py are moved into apertium-jpn as buffer_mecab.cpp and tokenize.py
 
 C++ file with hfst command 
 ![Screenshot from 2023-07-12 05-59-04](https://github.com/yypy22/gsoc_try/assets/99264752/487ac8ea-ce7b-46e7-9edf-f48a126b5edd)
