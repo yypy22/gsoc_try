@@ -1,3 +1,5 @@
+Dictionary Conversion to lexc file research https://docs.google.com/document/d/1p2qFp1g9OufeL_Obgg8vpljfgAwKz4D2briQvqepsMw/edit
+
 real_tokenizer.cpp and mecab_tokenizer.py are moved into apertium-jpn as buffer_mecab.cpp and tokenize.py
 
 C++ file with hfst command 
