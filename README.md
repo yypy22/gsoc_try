@@ -1,12 +1,8 @@
-(after
-echo FIVBバレーボールネーションズリーグ（Volleyball Nations League）は、FIVB（国際バレーボール連盟）が2018年から開催しているバレーボール国際大会である。男子のバレーボール・ワールドリーグと女子のバレーボール・ワールドグランプリを発展的に統合した大会となる。| python3 tokenize.py | hfst-proc jpn.automorf.hfst
+After
+![Screenshot from 2023-07-22 10-07-13](https://github.com/yypy22/gsoc_try/assets/99264752/64156047-19ce-4865-ad1a-b0a9ec607e2e)
 
-^FIVB/*FIVB$ ^バレーボール/バレーボール<n><sg><abs>$ ^ネーションズ/*ネーションズ$ ^リーグ/リーグ<n><sg><abs>$ ^（/（<lpar>/（<spec>$ ^Volleyball/*Volleyball$ ^Nations/*Nations$ ^League/*League$ ^）/）<rpar>/）<spec>$ ^は/は<n><sg><abs>/は<v><ifml><npst>$ ^、/、<cm>/、<spec>$ ^FIVB/*FIVB$ ^（/（<lpar>/（<spec>$ ^国際/国際<n><sg><abs>$ ^バレーボール/バレーボール<n><sg><abs>$ ^連盟/連盟<n><sg><abs>$ ^）/）<rpar>/）<spec>$ ^が/が<n><sg><abs>/が<suff>$ ^2018/2018<num><abs>$ ^年/年<n><sg><abs>/年<suff>$ ^から/から<adj><abs>/から<n><sg><abs>/から<suff>/から<v><ifml><npst>$ ^開催/開催<n><sg><abs>$ ^し/し<n><sg><abs>/し<suff>/し<v><ifml><npst>$ ^て/て<n><sg><abs>/て<suff>/て<v><ifml><npst>$ ^いる/いる<suff>/いる<v><ifml><npst>$ ^バレーボール/バレーボール<n><sg><abs>$ ^国際/国際<n><sg><abs>$ ^大会/大会<n><sg><abs>$ ^で/で<v><ifml><npst>$ ^ある/ある<suff>/ある<v><ifml><npst>$ ^。/。<sent>/。<spec>$ ^男子/男子<n><sg><abs>$ ^の/の<n><sg><abs>/の<v><ifml><npst>$ ^バレーボール/バレーボール<n><sg><abs>$ ^・/・<spec>$ ^ワールド/ワールド<n><sg><abs>$ ^リーグ/リーグ<n><sg><abs>$ ^と/と<n><sg><abs>/と<suff>/と<v><ifml><npst>$ ^女子/女子<n><sg><abs>$ ^の/の<n><sg><abs>/の<v><ifml><npst>$ ^バレーボール/バレーボール<n><sg><abs>$ ^・/・<spec>$ ^ワールド/ワールド<n><sg><abs>$ ^グランプリ/グランプリ<n><sg><abs>$ ^を/*を$ ^発展/発展<n><sg><abs>$ ^的/的<n><sg><abs>/的<suff>$ ^に/に<n><sg><abs>/に<v><ifml><npst>$ ^統合/統合<n><sg><abs>$ ^し/し<n><sg><abs>/し<suff>/し<v><ifml><npst>$ ^た/た<n><sg><abs>/た<suff>/た<v><ifml><npst>$ ^大会/大会<n><sg><abs>$ ^と/と<n><sg><abs>/と<suff>/と<v><ifml><npst>$ ^なる/なる<suff>/なる<v><ifml><npst>$)
-
-(before
-echo FIVBバレーボールネーションズリーグ（Volleyball Nations League）は、FIVB（国際バレーボール連盟）が2018年から開催しているバレーボール国際大会である。男子のバレーボール・ワールドリーグと女子のバレーボール・ワールドグランプリを発展的に統合した大会となる。| python3 tokenize.py | hfst-proc jpn.automorf.hfst
-  
-^FIVB/*FIVB$ ^バレーボール/*バレーボール$ ^ネーションズ/*ネーションズ$ ^リーグ/*リーグ$ ^（/（<lpar>$ ^Volleyball/*Volleyball$ ^Nations/*Nations$ ^League/*League$ ^）/）<rpar>$ ^は/*は$ ^、/、<cm>$ ^FIVB/*FIVB$ ^（/（<lpar>$ ^国際/*国際$ ^バレーボール/*バレーボール$ ^連盟/*連盟$ ^）/）<rpar>$ ^が/*が$ ^2018/2018<num><abs>$ ^年/*年$ ^から/*から$ ^開催/*開催$ ^し/*し$ ^て/*て$ ^いる/*いる$ ^バレーボール/*バレーボール$ ^国際/*国際$ ^大会/*大会$ ^で/*で$ ^ある/*ある$ ^。/。<sent>$ ^男子/*男子$ ^の/*の$ ^バレーボール/*バレーボール$ ^・/*・$ ^ワールド/*ワールド$ ^リーグ/*リーグ$ ^と/*と$ ^女子/*女子$ ^の/*の$ ^バレーボール/*バレーボール$ ^・/*・$ ^ワールド/*ワールド$ ^グランプリ/*グランプリ$ ^を/*を$ ^発展/*発展$ ^的/*的$ ^に/*に$ ^統合/*統合$ ^し/*し$ ^た/*た$ ^大会/*大会$ ^と/*と$ ^なる/*なる$)
+Before
+![Screenshot from 2023-07-22 10-06-33](https://github.com/yypy22/gsoc_try/assets/99264752/24f43ee8-2adc-484e-baac-70917ee5160b)
 
 Dictionary Conversion to lexc file research https://docs.google.com/document/d/1p2qFp1g9OufeL_Obgg8vpljfgAwKz4D2briQvqepsMw/edit
 
