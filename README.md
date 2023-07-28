@@ -1,6 +1,9 @@
 With new rlx, 
 ![Screenshot from 2023-07-28 12-54-42](https://github.com/yypy22/gsoc_try/assets/99264752/c42f767c-8631-40d4-8273-eb87039a7c6e)
 
+With old one, as you can see とび is ambiguous here
+![Screenshot from 2023-07-28 13-01-26](https://github.com/yypy22/gsoc_try/assets/99264752/60b4cea2-103c-4815-b5e4-3e500f4f6906)
+
 Now
 ![Screenshot from 2023-07-23 05-49-53](https://github.com/yypy22/GSoC2023/assets/99264752/136f1959-d3e9-4036-a4bd-30f3e67091b8)
 
