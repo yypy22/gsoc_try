@@ -1,3 +1,5 @@
+Will keep on improving lexc file and rlx file to use tagger and morph command
+
 With new rlx, 
 ![Screenshot from 2023-07-28 12-54-42](https://github.com/yypy22/gsoc_try/assets/99264752/c42f767c-8631-40d4-8273-eb87039a7c6e)
 
