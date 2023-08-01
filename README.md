@@ -1,3 +1,5 @@
+Goal: corpus coverage over 90%
+
 A bit hard to convert this into rule ![ダウンロード](https://github.com/yypy22/gsoc_try/assets/99264752/b1cbb2ac-5cd4-44e2-89e2-3b6a44bb4299)
 
 Will keep on improving lexc file and rlx file to use tagger and morph command
