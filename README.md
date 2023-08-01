@@ -1,3 +1,7 @@
+rlx file improved a bit 
+echo 17時からは卒業ライブを実施し、うしおさんはアイドルを引退した。今後はソロシンガーとして活動すると意気込む。ファンからは「アイドル卒業おめでとう シンガーとして頑張ってね」| apertium -d . jpn-segment | hfst-proc jpn.automorf.hfst | cg-proc -w jpn.rlx.bin
+^17/17<num><abs>$ ^時/時<suff>$ ^から/から<suff>$ ^は/*は$ ^卒業/卒業<n><sg><abs>$ ^ライブ/ライブ<n><sg><abs>$ ^を/*を$ ^実施/実施<n><sg><abs>$ ^し/し<v><ifml><npst>$ ^、/、<cm>$ ^うしお/*うしお$ ^さん/さん<suff>$ ^は/*は$ ^アイドル/アイドル<n><sg><abs>$ ^を/*を$ ^引退/引退<n><sg><abs>$ ^し/し<v><ifml><npst>$ ^た/た<suff>$ ^。/。<sent>$ ^今後/今後<n><sg><abs>$ ^は/*は$ ^ソロ/ソロ<n><sg><abs>$ ^シンガー/シンガー<n><sg><abs>$ ^と/と<suff>$ ^し/し<v><ifml><npst>$ ^て/て<suff>$ ^活動/活動<n><sg><abs>$ ^する/する<v><ifml><npst>$ ^と/と<suff>$ ^意気/意気<n><sg><abs>$ ^込む/込む<v><ifml><npst>$ ^。/。<sent>$ ^ファン/ファン<n><sg><abs>$ ^から/から<suff>$ ^は/*は$ ^「/「<lquot>$ ^アイドル/アイドル<n><sg><abs>$ ^卒業/卒業<n><sg><abs>$ ^お/お<pref>$ ^めでとう/*めでとう$ ^シンガー/シンガー<n><sg><abs>$ ^と/と<suff>$ ^し/し<v><ifml><npst>$ ^て/て<suff>$ ^頑張っ/頑張っ<v><ifml><npst>$ ^て/て<suff>$ ^ね/ね<v><ifml><npst>$ ^」/」<rquot>$ 
+
 Goal: corpus coverage over 90%
 
 A bit hard to convert this into rule ![ダウンロード](https://github.com/yypy22/gsoc_try/assets/99264752/b1cbb2ac-5cd4-44e2-89e2-3b6a44bb4299)
