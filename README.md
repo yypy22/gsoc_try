@@ -1,3 +1,5 @@
+business words added into lexc file as katakana character like アサイン
+
 rlx file improved a bit 
 
 ![Screenshot from 2023-08-01 15-06-48](https://github.com/yypy22/gsoc_try/assets/99264752/d5909460-0df5-4ab9-909f-57fc9fac67a5)
