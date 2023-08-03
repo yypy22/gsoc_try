@@ -1,3 +1,5 @@
+test coverage with modCov.py ->need to get modified in tokenized function
+
 business words added into lexc file as katakana character like アサイン
 
 rlx file improved a bit 
