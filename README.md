@@ -1,3 +1,5 @@
+65% cover is due to * assigned to　の；に；は；を；へ；だ ...etc and modCov.py recognese words with * as unknown words!
+
 test coverage with modCov.py ->need to get modified in tokenized function
 
 business words added into lexc file as katakana character like アサイン
