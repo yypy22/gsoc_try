@@ -1,3 +1,7 @@
+with all-four.txt, output has these unknown words
+
+![Screenshot from 2023-08-03 14-40-19](https://github.com/yypy22/gsoc_try/assets/99264752/8c3ee123-84aa-4323-b175-98a70b2e7d05)
+
 65% cover is due to * assigned to　の；に；は；を；へ；だ ...etc and modCov.py recognese words with * as unknown words!
 
 test coverage with modCov.py ->need to get modified in tokenized function
