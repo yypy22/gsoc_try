@@ -1,3 +1,10 @@
+After adding normal often used words from non-notation.txt, i got 
+
+total words:2927
+unknown words:218
+coverage: 92.55%
+
+
 I added many characters from all-four.txt and it is not too reliable now, so I tried with non-notation.txt.(non-annotation is right name, notation is typo hehe)
 
 total words:2927
