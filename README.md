@@ -1,3 +1,10 @@
+I added many characters from all-four.txt and it is not too reliable now, so I tried with non-notation.txt.(non-annotation is right name, notation is typo hehe)
+
+total words:2927
+unknown words:264
+coverage: 90.98%
+
+
 total words:2016
 unknown words:21
 coverage: 98.96%
