@@ -1,3 +1,7 @@
+total words:2016
+unknown words:21
+coverage: 98.96%
+
 98.96% cover with a new evaluation python file, which just calculates nums of unknown words and divides it with the total num words count.
 
 with all-four.txt, output has these unknown words
