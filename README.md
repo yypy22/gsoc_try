@@ -1,3 +1,5 @@
+98.96% cover with a new evaluation python file, which just calculates nums of unknown words and divides it with the total num words count.
+
 with all-four.txt, output has these unknown words
 
 ![Screenshot from 2023-08-03 14-40-19](https://github.com/yypy22/gsoc_try/assets/99264752/8c3ee123-84aa-4323-b175-98a70b2e7d05)
