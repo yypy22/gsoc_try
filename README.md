@@ -1,3 +1,5 @@
+I am adding katakana words from https://benritecho.com/katakanakotoba/ 
+
 After adding normal often used words from non-notation.txt, i got 
 
 total words:2927
