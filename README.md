@@ -1,3 +1,5 @@
+Some English words are added and I will add them more 
+
 I am adding katakana words from https://benritecho.com/katakanakotoba/ 
 
 After adding normal often used words from non-notation.txt, i got 
