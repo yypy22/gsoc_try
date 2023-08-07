@@ -1,3 +1,5 @@
+English names are added a bit like Tom in katakana form
+
 Some English words are added and I will add them more 
 
 I am adding katakana words from https://benritecho.com/katakanakotoba/ 
