@@ -1,3 +1,5 @@
+tokenize.py on jpn is fixed 
+
 malformed input error with tokenize.py occurs
 
 English names are added a bit like Tom in katakana form
