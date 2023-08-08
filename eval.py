@@ -11,8 +11,9 @@ def run_command(command):
 
 if __name__ == "__main__":
     # command
-    command = "cat all_four.txt | apertium -d . jpn-segment | hfst-proc jpn.automorf.hfst | cg-proc -w jpn.rlx.bin"
-
+    #command = "cat all_four.txt | apertium -d . jpn-segment | hfst-proc jpn.automorf.hfst | cg-proc -w jpn.rlx.bin"
+    command = "cat all_four.txt | apertium -d . jpn-disam"
+    
     # command execution
     result = run_command(command)
 
