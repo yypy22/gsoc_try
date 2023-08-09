@@ -1,3 +1,5 @@
+british royal names are added and Forbes rich people are added as well
+
 tokenize.py on jpn is fixed 
 
 malformed input error with tokenize.py occurs
