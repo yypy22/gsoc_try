@@ -1,3 +1,5 @@
+Probably lexc file can be decreased the words. It does not very properly follow the format MeCab tokenize. 
+
 Created a pull request
 
 Their company names too
