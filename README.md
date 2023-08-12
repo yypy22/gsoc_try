@@ -1,4 +1,4 @@
-With Stay Hungry, Stay Foolish Japanese ver
+With Stay Hungry, Stay Foolish Japanese Script, I got
 
 total words:3299
 unknown words:83
