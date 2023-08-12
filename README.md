@@ -1,3 +1,5 @@
+ENglish words are added from https://englishgrammarhere.com/speaking/100-english-sentences-used-in-daily-life/
+
 Probably lexc file can be decreased the words. It does not very properly follow the format MeCab tokenize. 
 
 Created a pull request
