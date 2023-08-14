@@ -1,3 +1,5 @@
+I will focus on rlx file more from now on. I need to find many samples to see ambiguous words.
+
 With Stay Hungry, Stay Foolish Japanese Script, I got
 
 total words:3299
