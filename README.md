@@ -1,4 +1,4 @@
-Eng rlx file has 650 lines and for jpn I will set the goal to have like it
+Eng rlx file has 650 lines and for jpn I will set the goal to have it
 
 I will focus on rlx file more from now on. I need to find many samples to see ambiguous words.
 
