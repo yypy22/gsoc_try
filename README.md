@@ -1,4 +1,5 @@
-I uee this https://tool.konisimple.net/text/hinshi_keitaiso　to understand a part of speech classification type line noun, verb, suffix, etc...
+I uee this https://tool.konisimple.net/text/hinshi_keitaiso 
+to understand a part of speech classification type line noun, verb, suffix, etc...
 
 Eng rlx file has 650 lines and for jpn I will set the goal to have it
 
