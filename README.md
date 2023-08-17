@@ -1,7 +1,7 @@
 Final eval https://docs.google.com/document/d/1yxQH6hk-_fjIM9U0fx14OcezMwBUcIlM2WC-AM8O5Y8/edit
 
-I uee this https://tool.konisimple.net/text/hinshi_keitaiso 
-to understand a part of speech classification type line noun, verb, suffix, etc...
+I use this https://tool.konisimple.net/text/hinshi_keitaiso 
+to understand a part of speech classification type like noun, verb, suffix, etc...
 
 Eng rlx file has 650 lines and for jpn I will set the goal to have it
 
