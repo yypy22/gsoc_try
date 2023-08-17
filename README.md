@@ -1,3 +1,5 @@
+https://docs.google.com/document/d/1yxQH6hk-_fjIM9U0fx14OcezMwBUcIlM2WC-AM8O5Y8/edit
+
 I uee this https://tool.konisimple.net/text/hinshi_keitaiso 
 to understand a part of speech classification type line noun, verb, suffix, etc...
 
