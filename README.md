@@ -1,3 +1,5 @@
+$ cat article.txt | apertium -d .  jpn-disam | cg-conv -a
+
 $ cat ../gsoc_try/top.txt |apertium-destxt|apertium -f none -d .  jpn-morph|apertium-cleanstream -n |grep -F '*'|sort|uniq -c |sort -nr
 
 Final eval draft for 12/09/2023 https://docs.google.com/document/d/1yxQH6hk-_fjIM9U0fx14OcezMwBUcIlM2WC-AM8O5Y8/edit
