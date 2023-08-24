@@ -5,7 +5,7 @@ $ cat ../gsoc_try/top.txt |apertium-destxt|apertium -f none -d .  jpn-morph|aper
 Final eval draft for 12/09/2023 https://docs.google.com/document/d/1yxQH6hk-_fjIM9U0fx14OcezMwBUcIlM2WC-AM8O5Y8/edit
 
 I use this https://tool.konisimple.net/text/hinshi_keitaiso 
-to understand a part of speech classification type like noun, verb, suffix, etc...
+to understand a part of speech classification types like noun, verb, suffix, etc...
 
 Eng rlx file has 650 lines and for jpn I will set the goal to have it
 
