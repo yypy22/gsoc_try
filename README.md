@@ -1,4 +1,4 @@
-$ cat article.txt | apertium -d .  jpn-disam | cg-conv -a
+$ cat article.txt | apertium -d .  jpn-disam | cg-conv -a　　　　　　　　　　　　　　　　
 
 $ cat ../gsoc_try/top.txt |apertium-destxt|apertium -f none -d .  jpn-morph|apertium-cleanstream -n |grep -F '*'|sort|uniq -c |sort -nr
 
@@ -152,12 +152,12 @@ For sentence.py, I simply tried word segmentation aspect and used Hiroshima file
 word segmentation doc in python https://pypi.org/project/sentencepiece/
 I got 85.24% with bochan.txt input. Larger corpus input will make accuracy better.
 
-Brief summary of Sentencepiece:'SentencePiece' solves problem by using 'subwords'. First, the text is split into words and the frequency of each word is determined. High frequency words are then treated as a single vocabulary, while low frequency words are split into shorter vocabulary words. The splitting is then repeated until the vocabulary number reaches a pre-specified number. This makes it possible to eliminate unknown words while keeping the vocabulary size small.
+Brief summary of Sentencepiece:'SentencePiece' solves problem by using 'subwords'. First, the text is split into words and the frequency of each word is determined. High-frequency words are then treated as a single vocabulary, while low frequency words are split into shorter vocabulary words. The splitting is then repeated until the vocabulary number reaches a pre-specified number. This makes it possible to eliminate unknown words while keeping the vocabulary size small.
 
 
 For speed comparison, I used bochan.txt, which is fairly large japanese corpus. I got initinal speed with only one japanese word. 
 
-Below is screenshot of sentencepiece word segmentation(62%)
+Below is the screenshot of sentence piece word segmentation(62%)
 
 ![Screenshot from 2023-06-22 09-03-49](https://github.com/yypy22/gsoc_try/assets/99264752/e9615d7a-4eac-4845-abaf-d12327a9a828)
 
