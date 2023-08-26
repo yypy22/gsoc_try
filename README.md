@@ -7,7 +7,7 @@ Final eval draft for 12/09/2023 https://docs.google.com/document/d/1yxQH6hk-_fjI
 I use this https://tool.konisimple.net/text/hinshi_keitaiso 
 to understand a part of speech classification types like noun, verb, suffix, etc...
 
-Eng rlx file has 650 lines and for jpn I will set the goal to have it
+Eng rlx file has 650 lines and for Jpn rlx I will set the goal to have it. 
 
 I will focus on rlx file more from now on. I need to find many samples to see ambiguous words.
 
