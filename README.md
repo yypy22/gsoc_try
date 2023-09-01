@@ -2,6 +2,8 @@ Final eval draft for 12/09/2023 https://docs.google.com/document/d/1yxQH6hk-_fjI
 
 Encoding one is written above. 
 
+$ cat sample.txt |apertium-destxt|apertium -f none -d .  jpn-morph|apertium-cleanstream -n |grep -F '*'|sort|uniq -c |sort -nr
+
 Nice amount of sample corpus on horror
 
 https://kikikaikai.fan/feature_article/syarekowa/%e3%82%b3%e3%83%88%e3%83%aa%e3%83%90%e3%82%b3
