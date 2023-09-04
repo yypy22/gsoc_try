@@ -2,7 +2,7 @@ Final eval draft for 12/09/2023 https://docs.google.com/document/d/1yxQH6hk-_fjI
 
 Encoding one is written above. 
 
-Onomatopeia in adverb?
+Interjection added
 
 $ cat sample.txt |apertium-destxt|apertium -f none -d .  jpn-morph|apertium-cleanstream -n |grep -F '*'|sort|uniq -c |sort -nr
 
