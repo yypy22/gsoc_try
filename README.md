@@ -1,4 +1,4 @@
-Final eval draft for 12/09/2023 https://docs.google.com/document/d/1yxQH6hk-_fjIM9U0fx14OcezMwBUcIlM2WC-AM8O5Y8/edit publicly accessble
+Final eval draft for 12/09/2023 https://docs.google.com/document/d/1yxQH6hk-_fjIM9U0fx14OcezMwBUcIlM2WC-AM8O5Y8/edit publicly accessible
 
 Encoding one is written above. 
 
